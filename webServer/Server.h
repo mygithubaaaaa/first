@@ -25,5 +25,6 @@ private:
 	sockaddr_in srvAddr;
 	char * recvBuf;
 	std::vector<SOCKET> sessions;
+	std::string maincontents;
 
 };
